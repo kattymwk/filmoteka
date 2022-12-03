@@ -1,0 +1,65 @@
+1
+Orange city
+triller
+5.600000
+2005
+2
+Open door
+detective
+7.970000
+2010
+3
+Air
+drama
+8.990000
+2015
+4
+Love and Hate
+melodrama
+7.600000
+2020
+5
+Green apple
+detective
+9.100000
+2021
+6
+Never
+drama
+8.100000
+1981
+7
+Help me
+triller
+8.500000
+2007
+8
+School
+detective
+7.500000
+2022
+9
+Minsk city
+detective
+9.000000
+1994
+10
+Premier amour
+moladrama
+8.700000
+2015
+11
+Cat and Dog
+drama
+6.900000
+2008
+12
+Batterfly
+melodrama
+9.800000
+2004
+13
+Assembler
+triller
+5.400000
+1973
