@@ -130,15 +130,19 @@
     <ClCompile Include="filmoteka.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Exception.h" />
     <ClInclude Include="Film.h" />
     <ClInclude Include="FilmCollection.h" />
-    <ClInclude Include="TopDetectivesFilms.h" />
+    <ClInclude Include="Similar.h" />
+    <ClInclude Include="Sorting.h" />
+    <ClInclude Include="TopGenreFilms.h" />
     <ClInclude Include="TopFilms.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="films.txt" />
     <Text Include="recomendations.txt" />
     <Text Include="views.txt" />
+    <Text Include="similar.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

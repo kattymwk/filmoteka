@@ -8,13 +8,16 @@ public:
 	int id;
 	string title;
 	string genre;
-	float score;
+	double score;
 	int year;
+	string info;
+	string actors;
 
 	Film();
 
-	Film(int _id, string _title, string _genre, float _score, int _year);
+	Film(int _id, string _title, string _genre, double _score, int _year, string _info, string _actors);
 
 	void Print();
+	void PrintInfo();
 };
 

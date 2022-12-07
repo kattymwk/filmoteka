@@ -1,65 +1,154 @@
 1
-Orange city
+Orange
 triller
-5.600000
+2.1
 2005
+No data avaible!
+No data avaible!
 2
 Open door
 detective
-7.970000
+7.97
 2010
+No data avaible!
+No data avaible!
 3
 Air
 drama
-8.990000
+8.99
 2015
+The film is not very... Look better <Wednesday>!
+Pavel Priluchny. Agatha Muceniete
 4
 Love and Hate
 melodrama
-7.600000
+7.6
 2020
+Good film... I liked the acting. I advise you to look!
+Johnny Dap. James Bond
 5
 Green apple
 detective
-9.100000
+9.1
 2021
+No data avaible!
+No data avaible!
 6
 Never
 drama
-8.100000
+8.3
 1981
+The film is not very... Look better <Wednesday>!
+Pavel Priluchny. Agatha Muceniete
 7
 Help me
 triller
-8.500000
+8.5
 2007
+Good film... I liked the acting. I advise you to look!
+Johnny Dap. James Bond
 8
 School
 detective
-7.500000
+7.5
 2022
+The film is not very... Look better <Wednesday>!
+Pavel Priluchny. Agatha Muceniete
 9
-Minsk city
-detective
-9.000000
+Brest
+melodrama
+9
 1994
+No data avaible!
+No data avaible!
 10
 Premier amour
-moladrama
-8.700000
+melodrama
+8.7
 2015
+fGood film... I liked the acting. I advise you to look!
+Johnny Dap. James Bond
 11
 Cat and Dog
 drama
-6.900000
+6.9
 2008
+Good film... I liked the acting. I advise you to look!
+Johnny Dap. James Bond
 12
 Batterfly
 melodrama
-9.800000
+9.8
 2004
+The film is not very... Look better <Wednesday>!
+Pavel Priluchny. Agatha Muceniete
 13
 Assembler
 triller
-5.400000
+5.4
 1973
+No data avaible!
+No data avaible!
+14
+C++
+triller
+6.5
+2022
+Good film... I liked the acting. I advise you to look!
+Johnny Dap. James Bond
+15
+Moon
+melodrama
+7.7
+2000
+The film is not very... Look better <Wednesday>!
+Pavel Priluchny. Agatha Muceniete
+16
+Guilty
+triller
+8.7
+2017
+Good film... I liked the acting. I advise you to look!
+Johnny Dap. James Bond
+17
+Search time
+detective
+5.9
+2013
+The film is not very... Look better <Wednesday>!
+Pavel Priluchny. Agatha Muceniete
+18
+Green
+melodrama
+6.9
+2017
+No data avaible
+No data avaible
+19
+Double
+melodrama
+7.8
+2019
+The film is not very... Look better <Wednesday>!
+Pavel Priluchny. Agatha Muceniete
+20
+Kolobok
+multik
+6.8
+1985
+No data avaible
+No data avaible
+21
+Sonik
+multik
+7.2
+1984
+The film is not very... Look better <Wednesday>!
+Pavel Priluchny. Agatha Muceniete
+22
+Spinoza
+detective
+7.1
+2018
+No data avaible
+No data avaible

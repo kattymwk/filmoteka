@@ -4,5 +4,5 @@
 class TopFilms : public FilmCollection
 {
 public:
-	std::vector<Film*> GetTop();
+	vector<Film*> GetTop();
 }; 

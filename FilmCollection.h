@@ -12,6 +12,7 @@ public:
 	vector<Film*> films;
 	vector<Film*> views;
 	vector<Film*> recomendations;
+	vector<Film*> temp;
 
 	FilmCollection();
 
@@ -20,13 +21,19 @@ public:
 	vector<Film*> GetRecomendations();
 
 	void Add(Film* film);
-
 	void Delete(string title);
+	void Edit();
 
 	Film* GetRandomFilm();
 
-	void virtual ViewFilm(Film* film);
+	void ViewRandFilmFromRec(Film* film);
+	void ViewFilm();
+	void ViewInfo();
 
 	void Search();
 	void Sort();
+
+	friend class SimilarFilms;
+
 }; 
+
