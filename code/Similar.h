@@ -42,11 +42,6 @@ public:
       
             ifstream f("similar.txt");
 
-            if (!f.is_open() || f.bad()) 
-            {
-                throw Exception("Файл не открыт!");
-            }
-
             string buff;
 
             while (!f.eof()) 

@@ -144,6 +144,9 @@
     <Text Include="views.txt" />
     <Text Include="similar.txt" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\Downloads\Telegram Desktop\ClassDiagram.cd" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

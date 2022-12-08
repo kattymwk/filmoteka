@@ -630,21 +630,6 @@ void FilmCollection::Edit()
 					} while (Flag);
 				}
 			}
-			//cout << endl << "Запись изменена!" << endl << endl;
-			//int otv = 0;
-			//while (otv != 1 && otv != 2)
-			//{
-			//	cout << endl << "Хотите отменить редактирование ? (1 - да | 2 - нет)" << endl;
-			//	cin.clear();
-			//	if(!(cin >> otv)) throw(exception("Некорректный ввод! Повторите попытку!"));
-			//	cin.ignore();
-			//}
-			//switch (otv)
-			//{
-			//case 1: { films = temp; SaveToFile(); break; }
-
-			//case 2: {temp = films; break; }
-			//}
 			break;
 		}
 		catch (const exception& ex)
@@ -801,20 +786,20 @@ void PrintMenu()
 {
 	cout << "\n\t[ М Е Н Ю ]\n";
 	cout << "\n";
-	cout << "1 - показать список фильмов\n";
-	cout << "2 - показать историю просмотра\n";
-	cout << "3 - показать рекомендации\n";
-	cout << "4 - лучшие фильмы\n";
-	cout << "5 - лучшие фильмы по жанру\n";
-	cout << "6 - показать информацию о фильме\n";
-	cout << "7 - добавить фильм\n";
-	cout << "8 - удалить фильм\n";
-	cout << "9 - редактировать запись\n";
-	cout << "10 - поиск фильма\n";
-	cout << "11 - посмотреть фильм\n";
-	cout << "12 - просмотр записей с фильтрами\n";
-	cout << "13 - найти похожие фильмы\n";
-	cout << "14 - выйти\n";
+	cout << "\t1 - показать список фильмов\n";
+	cout << "\t2 - показать историю просмотра\n";
+	cout << "\t3 - показать рекомендации\n";
+	cout << "\t4 - лучшие фильмы\n";
+	cout << "\t5 - лучшие фильмы по жанру\n";
+	cout << "\t6 - показать информацию о фильме\n";
+	cout << "\t7 - добавить фильм\n";
+	cout << "\t8 - удалить фильм\n";
+	cout << "\t9 - редактировать запись\n";
+	cout << "\t10 - поиск фильма\n";
+	cout << "\t11 - посмотреть фильм\n";
+	cout << "\t12 - просмотр записей с фильтрами\n";
+	cout << "\t13 - найти похожие фильмы\n";
+	cout << "\t14 - выйти\n";
 }
 
 int main()
@@ -848,6 +833,7 @@ int main()
 				{
 				case 1:
 				{
+					cout << endl << "\t[ СПИСОК ВСЕХ ФИЛЬМОВ ]" << endl;
 					PrintHeader();
 					for (Film* f : x->GetCollection())
 						f->Print();
@@ -856,6 +842,7 @@ int main()
 				}
 				case 2:
 				{
+					cout << endl << "\t[ ИСТОРИЯ ПРОСМОТРА ]" << endl;
 					PrintHeader();
 					for (Film* f : x->GetViews())
 						f->Print();
@@ -864,6 +851,7 @@ int main()
 				}
 				case 3:
 				{
+					cout << endl << "\t[ РЕКОМЕНДАЦИИ ]" << endl;
 					PrintHeader();
 					for (Film* f : x->GetRecomendations())
 						f->Print();
@@ -872,6 +860,7 @@ int main()
 				}
 				case 4:
 				{
+					cout << endl << "\t[ ЛУЧШИЕ ФИЛЬМЫ ]" << endl;
 					TopFilms* top = new TopFilms();
 					PrintHeader();
 					for (Film* f : top->GetTop())
@@ -881,6 +870,7 @@ int main()
 				}
 				case 5:
 				{
+					cout << endl << "\t[ ЛУЧШИЕ ФИЛЬМЫ ПО ЖАНРУ ]" << endl;
 					cout << "Введите жанр, чтобы увидеть его лучшие фильмы:\n\n";
 					string _genre;
 					getline(cin, _genre);
@@ -893,11 +883,13 @@ int main()
 				}
 				case 6:
 				{
+					cout << endl << "\t[ ИНФОРМАЦИЯ О ФИЛЬМЕ ]" << endl;
 					x->ViewInfo();
 					break;
 				}
 				case 7:
 				{
+					cout << endl << "\t[ ДОБАВЛЕНИЕ ФИЛЬМА ]" << endl;
 					Film* tmp = new Film();
 					cout << "Введите название: ";
 
@@ -918,6 +910,7 @@ int main()
 				}
 				case 8:
 				{
+					cout << endl << "\t[ УДАЛЕНИЕ ФИЛЬМА ]" << endl;
 					PrintHeader();
 					for (Film* f : x->GetCollection()) f->Print();
 					cout << "\n\nВведите название: ";
@@ -929,16 +922,19 @@ int main()
 				}
 				case 9:
 				{
+					cout << endl << "\t[ РЕДАКТИРОВАНИЕ ФИЛЬМА ]" << endl;
 					x->Edit();
 					break;
 				}
 				case 10:
 				{
+					cout << endl << "\t[ ПОИСК ФИЛЬМА ]" << endl;
 					x->Search();
 					break;
 				}
 				case 11:
 				{
+					cout << endl << "\t[ ПОСМОТРЕТЬ ФИЛЬМ ]" << endl;
 					int select = 0;
 					while (select != 1 && select != 2 && select != 3)
 					{
@@ -971,11 +967,13 @@ int main()
 				}
 				case 12:
 				{
+					cout << endl << "\t[ ПРОСМОТР С СОРТИРОВКОЙ ]" << endl;
 					x->Sort();
 					break;
 				}
 				case 13:
 				{
+					cout << endl << "\t[ ПОИСК ПОХОЖЕГО ФИЛЬМА ]" << endl;
 					PrintHeader();
 					for (Film* f : x->GetCollection())
 						f->Print();
